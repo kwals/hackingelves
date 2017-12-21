@@ -4,7 +4,7 @@ phases:
 install:
     commands:
       - echo Installing Mocha...
-      - echo Getting ready for testings!
+      - echo Getting ready for testings...
       - npm install -g mocha
   pre_build:
     commands:
