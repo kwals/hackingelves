@@ -4,7 +4,6 @@ phases:
 install:
     commands:
       - echo Installing Mocha...
-      - echo Getting ready for testings...
       - npm install -g mocha
   pre_build:
     commands:
@@ -21,7 +20,5 @@ install:
       - echo Build completed on `date`
 
 artifacts:
-  type: zip
   files:
-    - template-export.yml
     - HelloWorldSpec.js
