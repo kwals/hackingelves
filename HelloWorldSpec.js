@@ -3,6 +3,6 @@ var str = 'Hello, world!';
 
 test.string(str).startsWith('Hello');
 
-if (test.string(str).startsWith('Hello')) {
+if (test.string(str).startsWith('Red')) {
   console.log('Passed');
 }
